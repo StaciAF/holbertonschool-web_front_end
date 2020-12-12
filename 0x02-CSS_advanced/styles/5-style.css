@@ -32,8 +32,8 @@ html {
  }
  /* adds custom font-family properties for root element */
  :root {
-    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* adds custom properties to root element for font-size */
 :root {
