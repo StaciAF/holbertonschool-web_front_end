@@ -1,21 +1,27 @@
 /* adds smooth scrolling behavior to html element */
+
 html {
     scroll-behavior: smooth;
 }
+
 /* sets foreground color for multiple elements */
- body {
-    color: #161616;   
- }
- a {
-     color: #161616;
- }
- .visually-hidden {
-     display: none;
- }
- .card-category {
-     color: #D73953;
- }
- .section-tagline {
-     color: #D73953;
- }
- 
+
+body {
+    color: #161616;
+}
+
+a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: #D73953;
+}
+
+.section-tagline {
+    color: #D73953;
+}
