@@ -48,7 +48,7 @@ body {
     min-height: var(--line-height-base);
 }
 
-a:any-link {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -94,7 +94,7 @@ a:active {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* adds font-family to all headings */
