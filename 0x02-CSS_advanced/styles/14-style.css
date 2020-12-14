@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
 /* adds custom properties for root element */
 
 :root {
@@ -92,7 +94,3 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-
-/* Normalize.css */
-
-@import 'normalize.css';
