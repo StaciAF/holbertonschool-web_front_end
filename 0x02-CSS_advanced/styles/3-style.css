@@ -1,33 +1,33 @@
-/* adds smooth scrolling behavior to html element */
-
-html {
-    scroll-behavior: smooth;
-    --color-primary: #d73953;
-    --color-black: #090909;
-    --color-white: #ffffff;
-    --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
-    --text-color: color-black;
+:root {
+        --color-primary: #d73953;
+        --color-black: #090909;
+        --color-white: #ffffff;
+        --color-light-grey: #f3f3f3;
+        --color-dark-grey: #e00202;
+        --text-color: color-black;
 }
 
-/* sets foreground color for multiple elements */
+html {
+        scroll-behavior: smooth;
+
+}
 
 body {
-    color: var(--text-color);
+        color: var(--text-color);
 }
 
 a {
-    color: var(--text-color);
+        color: var(--text-color);
 }
 
 .visually-hidden {
-    display: none; 
+        display: none; 
 }
 
 .card-category {
-    color: var(--color-primary);
+        color: var(--color-primary);
 }
 
 .section-tagline {
-    color: var(--color-primary);
+        color: var(--color-primary);
 }
