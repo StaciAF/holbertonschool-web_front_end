@@ -94,7 +94,7 @@ a:active {
 
 .container {
     width: 960px;
-    margin: 0;
+    margin: auto;
 }
 
 /* adds font-family to all headings */
