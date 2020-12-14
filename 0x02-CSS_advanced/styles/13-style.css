@@ -42,7 +42,7 @@ body {
     min-height: var(--line-height-base);
 }
 
-a:any-link {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
