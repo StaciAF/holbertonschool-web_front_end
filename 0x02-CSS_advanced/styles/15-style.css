@@ -28,7 +28,7 @@
 /* adds universal box sizing rule */
 
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /* adds smooth scrolling behavior to html element */
