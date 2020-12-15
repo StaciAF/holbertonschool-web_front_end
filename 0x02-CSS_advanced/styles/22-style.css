@@ -77,6 +77,12 @@ html {
     color: var(--nav-item-link-hover);
 }
 
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var (--color-white);
+    background-color: var(--color-black);
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -117,12 +123,6 @@ a:active {
 
 .section {
     padding: var(--section-padding);
-}
-
-.section[data-section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var  (--color-white);
-    background-color: var(--color-black);
 }
 
 .section-header {
