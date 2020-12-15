@@ -384,10 +384,7 @@ html {
 
 .nav {
     list-style: none;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin: 0;
     padding: 0;
     text-align: center;
 }
