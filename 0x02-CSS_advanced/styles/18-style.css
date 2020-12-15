@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
@@ -141,7 +141,6 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 
-
 img {
     border-style: none;
 }
@@ -183,10 +182,7 @@ button, select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
+button, [type=button], [type=reset], [type=submit] {
     -webkit-appearance: button;
 }
 
@@ -194,10 +190,7 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner, 
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
     border-style: none;
     padding: 0;
 }
@@ -206,10 +199,7 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
     outline: 1px dotted ButtonText;
 }
 
@@ -258,8 +248,7 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-[type=checkbox],
-[type=radio] {
+[type=checkbox], [type=radio] {
     box-sizing: border-box;
     padding: 0;
 }
@@ -268,8 +257,7 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
     height: auto;
 }
 
@@ -375,7 +363,7 @@ template {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing:  0.04rem;
+    --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
