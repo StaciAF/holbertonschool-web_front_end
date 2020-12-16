@@ -1,0 +1,8 @@
+/* assigns color with variable to body, p HTML tags */
+$set_color: #3D3D3D;
+body{
+    color: $set_color
+}
+p {
+    color: $set_color
+}
