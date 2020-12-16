@@ -246,15 +246,14 @@ a:active {
     position: relative;
 }
 
-.card-title a,
-.card-work a {
+.card-work a, .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title::after a,
-.card-work::after a {
+.card-title a::after,
+.card-work a::after {
     position: absolute;
     top: 0;
     right: 0;
