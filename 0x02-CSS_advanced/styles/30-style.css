@@ -182,7 +182,7 @@ a:active {
     color: var(--color-primary);
 }
 
-.card-services.card-title {
+.card-services .card-title {
     margin: 0;
 }
 
@@ -246,13 +246,13 @@ a:active {
     position: relative;
 }
 
-.card-work, .card-title a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work, .card-title a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
