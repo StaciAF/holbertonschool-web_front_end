@@ -110,8 +110,8 @@ html {
 .header-logo link {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    bottom: var(--header-logo-link-top);
-    right: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
 
 body {
