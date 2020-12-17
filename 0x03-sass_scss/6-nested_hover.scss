@@ -1,0 +1,7 @@
+/* styles hover effect with nested declarations */
+button {
+    color: #FF0000;
+    :hover {
+        color: #00FF00;
+    }
+}
