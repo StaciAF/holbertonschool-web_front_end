@@ -1,0 +1,7 @@
+/* uses media query to style h1 tag */
+h1 {
+    font-size: 20px;
+    @media screen and (max-width: 320px) {
+        font-size: 14px;
+    }
+}
