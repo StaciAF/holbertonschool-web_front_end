@@ -525,9 +525,9 @@ ul.row {
 /* Section SERVICES
     ============================= */
 
-    .section-services .row {
-        flex-wrap: wrap;
-    }
+.section-services .row {
+    flex-wrap: wrap;
+}
 
 /* Section Latest news
     ============================= */
