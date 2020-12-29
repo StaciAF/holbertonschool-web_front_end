@@ -18,10 +18,7 @@ Sibling to the
 ```
 <div class="post">
 ```
-, create a new
-```
-<section>
-```
+, create a new```<section>```
 with the class post-comments
 
 Inside the section create an header
