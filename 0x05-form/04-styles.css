@@ -835,7 +835,9 @@ label {
         padding: 0 0 .5rem;
 }
 
-input[type="text"], input[type="email"], textarea {
+form input[type="text"],
+input[type="email"],
+textarea {
         position: relative;
         width: 100%;
         padding: 1.2rem;
@@ -846,11 +848,14 @@ input[type="text"], input[type="email"], textarea {
         outline: 0;
 }
 
-input[type="text"], input[type="email"] {
+form input[type="text"],
+input[type="email"] {
         padding-right: 3rem;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+form input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
         border: .1rem solid var(--color-grey);
         background-color: var(--color-light-grey);
 }
