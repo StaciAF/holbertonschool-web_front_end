@@ -10,9 +10,6 @@
 ### Tasks
 
 #### 0. make the "works" card focus visible mandatory
-Let’s start by the “Work” section:
-
-We have an issue with the focus (moving from one link to another with the TAB key) in the Desktop version. With the DevTools, you can active the focus on the <a> inside .card-title and nothing happen.
 
 #### 1. add the skip-links mandatory
 
