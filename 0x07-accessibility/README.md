@@ -9,7 +9,7 @@
 
 ### Tasks
 
-#### 0. make the "works" card focus visible mandatory
+#### 0. make the "works" card focus visible mandatory 
 
 #### 1. add the skip-links mandatory
 
