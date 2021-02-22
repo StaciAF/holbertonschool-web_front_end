@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Task 4</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" type="application/javascript">
+    </script>
+    <script>
+        $(document).ready(function () {
+            function createFamilyTree() {
+                let newTable = $('<table></table>')
+                let newHead = $('<thead></thead>')
+                let firstRow = $('<tr></tr>')
+                let rowHead1 = $('<th></th>').text('Firstname')
+                let rowHead2 = $('<th></th>').text('Lastname')
+
+                let newBody = $('<tbody></tbody>')
+                let bodyRow1 = $('<tr></tr>')
+                let row1Data1 = $('<td></td>').text("Guillaume")
+                let row1Data2 = $('<td></td>').text("Salva")
+
+                let bodyRow2 = $('<tr></tr>')
+                let row2Data1 = $('<td></td>').text("Paulette")
+                let row2Data2 = $('<td></td>').text("Salva")
+
+                let bodyRow3 = $('<tr></tr>')
+                let row3Data1 = $('<td></td>').text("Antoine")
+                let row3Data2 = $('<td></td>').text("Salva")
+
+                $(newHead).append(firstRow)
+                $(firstRow).append(rowHead1, rowHead2)
+                $(bodyRow1).append(row1Data1, row1Data2)
+                $(bodyRow2).append(row2Data1, row2Data2)
+                $(bodyRow3).append(row3Data1, row3Data2)
+                $(newBody).append(bodyRow1, bodyRow2, bodyRow3)
+
+                $(newTable).append(newHead, newBody)
+                $('body').append(newTable)
+            }
+
+            function replaceFamilyTree() {
+                    replaceData = "<tr><td>Gerard</td><td>Bonissa</td></tr>"
+                    $( "tbody" ).html(replaceData)
+                }
+
+            createFamilyTree();
+            replaceFamilyTree();
+
+        })
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
