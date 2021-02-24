@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Task 7</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" type="application/javascript">
+    </script>
+    <script>
+        $(document).ready(function () {
+            function createSearchForm() {
+                $('body').append('<input type="text"/><input type="submit"/><ul></ul>')
+
+                $('input:submit').click(function(){
+                    queryWikipedia(input)
+                })
+            }
+
+            function addNewArticle(id, title, snippet){
+                let newList = $('<li></li>')
+                let listParagraph1 = $('<p><span>id -</span><b>title</b>')
+                let listParagraph2 = $('<p>$(snippet)</p>')
+                $(newList).append(listParagraph1, listParagraph2)
+                $('ul').append(newList)
+
+            }
+            createSearchForm()
+            addNewArticle()
+
+        })
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
