@@ -1,24 +1,18 @@
-let start = performance.now()
-
 function countPrimeNumbers() {
-    var primes = []
-    for (let count = 2; count <= 100; count++) {
-        if (count == 2 | count == 3 | count == 5 | count == 7) {
-            primes.push(count)
-        }
-        else if (count % 2 == 0 | count % 3 == 0 | count % 5 == 0 | count % 7 == 0) {
-            count++;
-        }
-        else {
-            primes.push(count);
+    let primeCount = 1
+    for (let i = 2; i < 101; i++) {
+        for (let j = 2; j < 101; j++) {
+            if (!(i % j === 0))
+                primeCount++;
         }
     }
-    return primes.length
-};
-
-for(let i = 0; i <= 100; i++) {
-    countPrimeNumbers();
+    return primeCount
 }
 
-let end = performance.now()
-console.log("Execution time of printing countPrimeNumbers was " + (end - start) + " milliseconds.")
+    let start = performance.now();
+    for(let count = 0; count < 100; count++){
+        countPrimeNumbers();
+    }
+    let end = performance.now();
+    let lapsed = end - start
+    console.log("Execution time of calculating prime numbers 100 times was " + lapsed + " milliseconds.")
