@@ -13,8 +13,8 @@
     $('#logIn').onclick = function setCookies() {
         let fNameCookie = document.getElementById('firstname').value;
         let emailCookie = document.getElementById('email').value;
-        document.cookie = `firstname=${fNameCookie}`;
-        document.cookie = `email=${emailCookie}`;
+        document.cookie = `firstname=${fNameCookie};max-age=864,000`;
+        document.cookie = `email=${emailCookie};max-age=864,000`;
     }
 
     $('#getCookies').onclick = function showCookies() {
@@ -23,6 +23,10 @@
         newPara.innerHTML = `Cookies: ${cookie}`;
         $('body').append(newPara);
 
+    }
+
+    function getCookie(name) {
+        
     }
 })    
     </script>
