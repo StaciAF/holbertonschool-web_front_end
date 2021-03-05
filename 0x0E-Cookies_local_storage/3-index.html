@@ -7,31 +7,15 @@
     <title>Basic</title>
     <meta name="description" content="Basic HTML framework for curriculum">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-    function setCookies() {
-        let fNameCookie = $.cookie("firstname =", $('#firstname').val()
-        let emailCookie = document.cookie = "email =" + $('#email').val()
-        $('#logIn').click(function () {
-            setCookies()
-        })
-    }
-
-    function showCookies() {
-        let domPara = $('<p></p>')
-        document.body.innerHTML('Cookies:' + cookie.val())
-        $('body').append(domPara)
-    }
-    setCookies()
-    showCookies()
-})    
-    </script>
+    <script src="src/index.js"></script>
 </head>
 
 <body>
+    <h2>Login to the website</h2>
     <input type="text" id="firstname" placeholder="Firstname">
     <input type="text" id="email" placeholder="Email">
     <button id="logIn">Log me in</button>
+    <h2>Cookies</h2>
     <button id="getCookies">Show the cookies</button>
 </body>
 
